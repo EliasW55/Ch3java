@@ -23,6 +23,7 @@ public class Rock
             else if(computerInt==3) {
                 System.out.println("The computer entered scissors. You win");
             }
+            break;
             case 2:
             System.out.println("You entered paper");
             if(computerInt==1) {
@@ -34,6 +35,7 @@ public class Rock
             else if(computerInt==3) {
                 System.out.println("The computer entered scissors. You lose");
             }
+            break;
             case 3:
             System.out.println("You entered scissors");
             if(computerInt==1) {
@@ -45,6 +47,7 @@ public class Rock
             else if(computerInt==3) {
                 System.out.println("The computer entered scissors. It's a tie");
             }
+            break;
         }
     }
 }

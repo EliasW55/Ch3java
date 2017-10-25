@@ -5,6 +5,7 @@
 //              
 // ****************************************************************
 import java.util.Scanner;
+import java.lang.Math;
  
 public class PowersOf2
 {
@@ -19,16 +20,15 @@ public class PowersOf2
             System.out.println("How many powers of 2 would you like printed?");
             numPowersOf2 = scan.nextInt();
                     
-            //print a message saying how many powers of 2 will be printed
-            //initialize exponent -- the first thing printed is 2 to the what?
+            System.out.println(numPowersOf2);
  
-            while (true)
+            for (exponent=0; exponent<numPowersOf2; exponent++) 
             {
-                    //print out current power of 2
+                System.out.println(nextPowerOf2);
+                System.out.println("2^" + nextPowerOf2 + "= " + 2^nextPowerOf2);
+                nextPowerOf2++;
  
-                //find next power of 2 -- how do you get this from the last one?
- 
-                //increment exponent
+                
  
             }
         }
